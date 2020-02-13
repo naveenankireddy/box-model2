@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* =====my css===== */
+body {
+    margin-left: 70px;
+    margin-top: 50px;
+    max-width: 1140px;
+}
+/* =====container===== */
+.container {
+    border-left: 10px solid blue;
+    border-right: 10px dashed red;
+    border-bottom: 10px dotted yellow;
+    border-top: 10px double green;
+    border-radius: 7%;
+}
+/* =====box1==== */
+.box1 {
+    height: 150px;
+    width: 120px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 10%;
+    display: inline-block;
+    box-sizing: initial;
+}
+/* =====box2===== */
+.box2 {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px dashed black;
+    border-radius: 20%;
+    display: inline-block;
+    box-sizing: inherit;
+}
+/* =====box3===== */
+.box3 {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px dotted black;
+    border-radius: 30%;
+    display: inline-block;
+    box-sizing: content-box;
+
+}
+/* =====box4=====*/
+.box4 {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px double black;
+    border-radius: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/* =====box5===== */
+.box5 {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-left: 10px solid blue;
+    border-right: 10px dashed red;
+    border-bottom: 10px dotted yellow;
+    border-top: 10px double green;
+    border-radius: 30%;
+    box-sizing: content-box;
+}

@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* =====MY CSS===== */
+/* =====header===== */
+body {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+}
+/* =====main content===== */
+.box {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 0px 20px blue;
+    background-color: skyblue;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    outline: 10px solid crimson;
+}
+.container-group1 h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.container-group1 p {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.division {
+ display: inline-block;
+ margin-right: 15px;
+ font-size: 0;
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: skyblue;
+    display: inline-block;
+    vertical-align: middle;
+}
+.circle1 {
+    background-color: black;
+}
+.circle2 {
+    background-color:crimson;
+}
+.circle3 {
+    background-color:blue;
+}
+.section {
+    text-align: center;
+    padding-top: 30px;
+} 
+.section p {
+    margin-left: 6px;
+    vertical-align:middle;
+    font-size: 16px;
+    display: inline;
+}
+hr {
+    margin: 40px auto;
+}
+.box1 {
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: gray;
+}
+.container-group2 {
+    border: 1px solid black;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.box2 { 
+    border: 1px solid black;
+}
+.box3 {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.list {
+    list-style: circle;
+    display: inline-block;
+    margin: 20px auto;
+}
